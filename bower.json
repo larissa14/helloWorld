@@ -1,0 +1,12 @@
+{
+  "name": "helloWorld",
+  "version": "0.0.1",
+  "homepage": "https://github.com/larissa14/helloWorld",
+  "authors": [
+    "larissa14 <larissa.baertschi@swisscom.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "~2.1.1"
+  }
+}
