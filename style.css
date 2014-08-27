@@ -1,16 +1,40 @@
 body{
-    background-color: black;
+    background-color: lightcyan;
 }
 
 h1{ color: orange;
     font-family:    fantasy;
 }
 
-.div1{ color: yellow;
-      font-family:    fantasy;
-  }
+.small-box{ color: yellow;
+       font-family:    fantasy;
+       width: 50px;
+       height: 50px;
+       background-color: green;
+   }
+
+.big-box{ color: yellow;
+    font-family:    fantasy;
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+}
 
 .button {
     background-color: white;
-
 }
+
+.jquery-title {
+    background-color: hotpink;
+    color: white;
+}
+
+.button:hover{
+    background-color: lime;
+}
+#box{
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -ms-transition:  all 2s ease-in-out;
+    -o-transition:  all 2s ease-in-out;
+    transition:  all 2s ease-in-out; }
